@@ -1,2 +1,4 @@
 # FactorioFastLazyBastard
-Making the game a little better for lazy bastards like myself
+For very lazy bastards.
+* Faster mining and deconstruction
+* Faster default construction robot speed.

@@ -9,9 +9,9 @@ function run() {
   const name = process.env.npm_package_name;
   const version = process.env.npm_package_version;
 
-  const info = require('./src/info');
+  const info = require('./src/info.json');
   info.version = version;
-  require('fs').writeFileSync('./src/info', JSON.stringify(info));
+  require('fs').writeFileSync('./src/info.json', JSON.stringify(info));
 
   exec.execSync(`zip -r ./output/${name}_${version}.zip ./src`);
 }

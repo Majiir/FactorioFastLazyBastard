@@ -11,7 +11,7 @@ function run() {
 
   const info = require('./src/info.json');
   info.version = version;
-  require('fs').writeFileSync('./src/info.json', JSON.stringify(info));
+  require('fs').writeFileSync('./src/info.json', JSON.stringify(info, null, 2));
 
   exec.execSync(`zip -r ./output/${name}_${version}.zip ./src`);
 }

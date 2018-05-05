@@ -1,8 +1,8 @@
 script.on_event(defines.events.on_player_created, function(event)
   local player = game.players[event.player_index]
 
-  player.force.manual_mining_speed_modifier=3
-  player.force.worker_robots_speed_modifier=3
+  player.force.manual_mining_speed_modifier=4
+  player.force.worker_robots_speed_modifier=4
 
   player.character_build_distance_bonus=100
   player.character_reach_distance_bonus=100

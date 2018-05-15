@@ -6,7 +6,7 @@
   "author": "DanielZlotin",
   "contact": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
   "homepage": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
-  "description": "For very lazy bastards.\n- Disables hand crafting for all players\n- Start the game with 1 Electric Poll, 1 Solar Panel, 1 Assembling Machine-3\n- Faster mining and deconstruction\n- Faster default construction robot speed.\n- Longer reach",
+  "description": "# FastLazyBastard\nFor very lazy bastards.\n- Disables hand crafting for all players\n- Start the game with 1 Electric Poll, 1 Solar Panel, 1 Assembling Machine-3\n- Faster mining and deconstruction\n- Faster default construction robot speed.\n- Longer reach\n",
   "source": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
   "dependencies": [
     "base >= 0.13.9"

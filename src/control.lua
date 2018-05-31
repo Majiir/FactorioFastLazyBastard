@@ -10,7 +10,7 @@ script.on_event(defines.events.on_runtime_mod_setting_changed, function ()
   applyMod()
 end)
 
-script.on_event(defines.events.on_player_created, function ()
+script.on_event(defines.events.on_player_created, function (event)
   local player = game.players[event.player_index]
   player.insert{name="assembling-machine-3", count=1}
 	player.insert{name="small-electric-pole", count=1}

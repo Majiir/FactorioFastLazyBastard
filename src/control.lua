@@ -25,9 +25,11 @@ end)
 
 function applyMod()
   for _, player in pairs(game.players) do
-    player.character_build_distance_bonus=100
-    player.character_reach_distance_bonus=100
-    player.force.manual_mining_speed_modifier=5
-    player.force.worker_robots_speed_modifier=5
+    if player and player.character do
+      player.character_build_distance_bonus=100
+      player.character_reach_distance_bonus=100
+      player.force.manual_mining_speed_modifier=5
+      player.force.worker_robots_speed_modifier=5
+    end
   end
 end

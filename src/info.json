@@ -1,12 +1,12 @@
 {
   "name": "FastLazyBastard",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "factorio_version": "0.16",
   "title": "FastLazyBastard",
   "author": "DanielZlotin",
   "contact": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
   "homepage": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
-  "description": "# FastLazyBastard\nFor very lazy bastards.\n- Disables hand crafting for all players\n- Start the game with 1 Electric Poll, 1 Solar Panel, 1 Assembling Machine-3\n- Faster default construction robot speed\n- Longer reach\n- Better pollution visibility on map\n",
+  "description": "# FastLazyBastard\nFor very lazy bastards.\n- Disables hand crafting\n- Start the game with the bare minimum needed\n- Longer reach\n- Faster walking speed\n- Better pollution visibility\n",
   "source": "https://github.com/DanielZlotin/FactorioFastLazyBastard",
   "dependencies": [
     "base >= 0.13.9"

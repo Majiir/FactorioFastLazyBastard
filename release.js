@@ -1,8 +1,8 @@
-const exec = require('shell-utils').exec;
+const { execSync } = require('child_process');
 const fs = require('fs');
 
-exec.execSync(`rm -rf ./dist`);
-exec.execSync(`mkdir ./dist`);
+execSync(`rm -rf ./dist`);
+execSync(`mkdir ./dist`);
 
 
 const name = process.env.npm_package_name;
@@ -15,4 +15,4 @@ info.version = version;
 info.description = description;
 fs.writeFileSync('./src/info.json', JSON.stringify(info, null, 2));
 
-exec.execSync(`zip -r ./dist/${name}_${version}.zip ./src`);
+execSync(`zip -r ./dist/${name}_${version}.zip ./src`);

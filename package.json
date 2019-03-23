@@ -7,10 +7,7 @@
     "name": "Daniel Zlotin"
   },
   "license": "MIT",
-  "dependencies": {
-    "shell-utils": "1.x.x",
-    "lodash": "4.x.x"
-  },
+  "dependencies": {},
   "scripts": {
     "release": "node release"
   }
